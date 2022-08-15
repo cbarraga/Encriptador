@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1 class="titulo">ENCRIPTADOR DESENCRIPTADOR ALURA</h1>
+
+        <main class="main">
+
+                <section class="form box">
+
+                        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+                        <textarea cols="70" rows="10" id="input-texto" class="text-input" required></textarea>
+                        <br>
+                        <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+                        <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+
+                </section>
+
+                <section class="msg box">
+                    <label for="msg">Mensaje encriptado - desencriptado:</label>
+                    <textarea cols="70" rows="10" id="msg" class="text-input" ></textarea>
+                    <br>
+                    <input class="btn" type="submit" value="Copiar" id="btn-copy">
+                </section>
+
+        </main>
+        <footer class="footer">
+            <p>© 2022 Carlos Barragan</p>
+        </footer>
+            <script src="js/encriptador.js"></script>
+    </body>
+</html>
